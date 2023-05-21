@@ -1,0 +1,28 @@
+Algoritmo: Fila de banco
+
+Declaração
+      Psp: Texto
+	  pp:  Texto
+	  Numeros[10]: inteiro
+	  Nome1:Texto
+	  
+Inicio
+Escreva("Qual é seu nome");
+Leia(Nome1);
+Escreva("Você tem algum preferencial?");
+Se ("tiver preferencial")ENTAO
+   Nome1<--PP
+  escreva("Nome1 tem a prioridade de estar em primeiro na fila");
+    Para I= 0 De ate 10 passos 10 faça texto
+ numeros[10]<- 10
+ 0 até 10
+ Fim-para
+ Senão
+   Nome1<--Psp
+  escreva("Nome1 ultimo lugar da fila"); 
+   Para I= 0 De ate 10 passos 1 faça texto
+ numeros[10]<- 1
+ 0 até 10
+   Fim-se
+ Fim
+ 
